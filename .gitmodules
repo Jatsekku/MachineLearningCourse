@@ -1,0 +1,3 @@
+[submodule "ext/MLphys"]
+	path = ext/MLphys
+	url = https://github.com/jarek-pawlowski/MLphys.git
