@@ -14,6 +14,7 @@
           ipympl
           jupyterlab
           torch
+          colorama
         ]);
       in {
         devShells.default = pkgs.mkShell {
