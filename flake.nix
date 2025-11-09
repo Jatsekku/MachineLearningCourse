@@ -18,6 +18,7 @@
           torchvision
           colorama
           scikit-learn
+          seaborn
         ]);
       in {
         devShells.default = pkgs.mkShell {
