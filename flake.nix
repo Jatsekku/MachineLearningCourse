@@ -17,6 +17,7 @@
           torchWithRocm
           torchvision
           colorama
+          scikit-learn
         ]);
       in {
         devShells.default = pkgs.mkShell {
