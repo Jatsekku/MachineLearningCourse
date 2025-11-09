@@ -15,6 +15,7 @@
           ipympl
           jupyterlab
           torchWithRocm
+          torchvision
           colorama
         ]);
       in {
