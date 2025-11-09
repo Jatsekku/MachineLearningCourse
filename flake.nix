@@ -9,11 +9,12 @@
       let
         pkgs = import nixpkgs {
           inherit system;
+          config.rocmSupport = true;
         };
         pythonEnv = pkgs.python3.withPackages (ps: with ps; [
           ipympl
           jupyterlab
-          torch
+          torchWithRocm
           colorama
         ]);
       in {
